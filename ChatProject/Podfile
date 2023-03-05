@@ -1,0 +1,43 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'ChatProject' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for ChatProject
+  pod 'Alamofire'
+  pod 'SnapKit'
+  pod 'HandyJSON', '~> 5.0.2'
+  pod 'MJRefresh'
+  pod 'TZImagePickerController'
+  pod 'SKPhotoBrowser', '~> 7.1.0'
+  pod 'JXSegmentedView'
+  #轮播图
+  pod 'FSPagerView'
+  pod 'SwifterSwift'
+  pod 'SVGAPlayer'
+  pod 'SHFullscreenPopGestureSwift', '~> 1.2.1'
+  # WebSocket
+  pod 'Starscream'
+  #加载、缓存、下载图片==SDWebImage
+  pod 'Kingfisher'
+  #提示 == SVProgressHUD
+  pod 'WisdomHUD'
+  #使用（今日头条）
+  pod 'SGPagingView', '~> 2.1.0'
+  #扫描二维码
+  pod 'swiftScan'
+  #检测键盘
+  pod 'IQKeyboardManagerSwift'
+  target 'ChatProjectTests' do
+    inherit! :search_paths
+  
+    # Pods for testing
+  end
+
+  target 'ChatProjectUITests' do
+    # Pods for testing
+  end
+
+end
