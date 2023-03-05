@@ -205,11 +205,14 @@ extension CCHomeViewController: SGPagingTitleViewDelegate, SGPagingContentViewDe
             }
         }
     }
-    
 }
 
 extension CCHomeViewController {
     @objc func temp_btn_action() {
-        print("temp_btn_action")
+        Http.manager.get(url: Http.getBannerUrl, params: ["":""], progress: { progress in
+            
+        } , response: {a,b,c in
+            
+        })
     }
 }
